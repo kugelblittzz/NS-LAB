@@ -1,0 +1,4 @@
+Note: 
+Step 1: Run the "tcp_bulk_send.cc" file. It will generate the trace file called "tcp_bulk_send.tr"
+Step 2: Type awk -f throughput-graph.awk tcp_bulk_send.tr > graph-Throughput in the terminal  (throughput-graph.awk and tcp_bulk_send.tr files should be in ns-3.31 folder)
+Step 3: Type gnuplot Throughput-graphcode in the terminal. It generates throughput graph in ns-3.31 folder.
